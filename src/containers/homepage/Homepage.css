@@ -1,0 +1,26 @@
+.container{
+    background: #E5E5E5;   
+    /* height: 100vh; */
+}
+
+.homeImgCls{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.imgSelf{
+    width: 100%;
+    padding: 20px;
+    height: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.shopnow-btn{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

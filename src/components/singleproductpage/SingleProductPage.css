@@ -1,0 +1,32 @@
+.single-card-item{
+    display: flex;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: start;
+}
+
+.single-card-item-img{
+    height: 200px;
+    width: 200px;
+    background-color: lightgrey;
+    margin-right: 10px;
+}
+
+.card-image{
+width: 100%;
+height: 100%;
+}
+
+.single-card-item-details{
+    margin: 10px 10px;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+.single-quantity-container{
+    display: flex;
+    justify-content: space-between;
+}

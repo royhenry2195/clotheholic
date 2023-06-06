@@ -1,0 +1,169 @@
+.card-priceDetail-container{
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px; 
+    margin: 0 auto; 
+    text-align: start;
+}
+
+.card-price-items{
+   display: flex;
+   justify-content: space-between;
+   margin: 10px 0;
+}
+
+.lbl-total{
+    font-weight: bold;
+}
+
+.btn-placeOrder{
+    background-color: #2196f3;
+    width: 100%;
+    color: white;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #E5E5E5;
+}
+
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lbl-price{
+    font-weight: bold;
+}
+
+.lbl-myCart{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-item-container{
+    display: flex;
+    flex-direction: column;
+}   
+.card-item{
+    display: flex;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px; 
+    margin: 10px 50px 0 0; 
+    text-align: start;
+    
+}
+
+
+
+.card-item-img{
+    height: 200px;
+    background-color: lightgrey;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.card-image{
+width: 100%;
+height: 100%;
+}
+
+.card-item-details{
+width: 60%;
+display: inline-grid;
+margin: 10px 10px;
+}
+
+
+.lbl-offprice{
+    font-weight: bold;
+    font-size: large;
+    margin: 5px 0;
+}
+.lbl-linethrough{
+    font-size: small;
+    text-decoration: line-through;
+    font-weight: initial;
+}
+
+.offpercentage{
+    margin: 5px 0;
+    font-weight: bold;
+    color: grey;
+}
+
+.btn-minus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lbl-itemsIncDec{
+    border: 1px solid black;
+    padding: 0 12px;
+    font-size: 12px;
+    margin: 0 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.btn-remove{
+margin-top: 15px;
+background-color: darkgrey;
+padding: 3px;
+border: 0;
+border-radius: 2px;
+}
+
+.btn-move{
+    margin-top: 8px;
+    padding: 2px;
+}
+.quantity-container{
+    display: flex;
+    justify-content: space-between;
+}
+.quantity-button-container{
+    display: flex;
+}

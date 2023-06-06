@@ -1,0 +1,80 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    height: 36px;
+    width: 202px;
+    left: 165px;
+    top: 22px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #9A9A9A;
+  }
+  
+  .search-bar {
+    /* height: 40px; */
+    width: 421px;
+    left: 750px;
+    top: 20px;
+    border-radius: 5px;
+    border: 1px solid #9A9A9A;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+  }
+  
+  .favorite-icon,
+  .cart-icon,
+  .profile-icon {
+    margin-right: 50px;
+  }
+  
+  .login-btn{
+    height: 40px;
+    width: 100px;
+    left: 1456px;
+    top: 20px;
+    border-radius: 0px;
+    background: #9A9A9A;
+    border: 0;
+    margin-right: 40px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  input[type='text'] {
+    border: 0px;
+    outline: none;
+    border-radius: 4px;
+    width: 100%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .search-bar {
+      visibility: hidden;
+    }
+  }

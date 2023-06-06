@@ -1,0 +1,64 @@
+.summer-collection-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    height: 250px;
+    background-color: #fff;
+    justify-content: center;
+  }
+  
+  .summer-collection-card-image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    padding-right: 10px;
+  }
+  
+  .summer-collection-card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .summer-collection-card-details {
+    flex: 0 0 70%;
+    padding: 0 10px 10px 10px;
+  }
+  
+  .summer-collection-card-category {
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    color: grey;
+  }
+  
+  .summer-collection-card-title {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+  
+  .summer-collection-card-description {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .summer-collection-card-price {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .summer-collection-card-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .summer-collection-card-button:hover {
+    background-color: #0056b3;
+  }
+  
